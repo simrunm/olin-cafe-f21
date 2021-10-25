@@ -10,7 +10,7 @@ output logic sum, c_out;
 
 always_comb begin : adder_gates
   // Setting outputs to x is a great way to debug unimplemented logic (it shows up red in gtkwave).
-    c_out = (a & b) | ((a ^ b) & c_in);
+  c_out = (a & b) | ((a ^ b) & c_in);
   sum = (a ^ b) ^ c_in;
 end
 
