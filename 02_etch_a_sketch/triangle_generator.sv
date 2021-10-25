@@ -16,7 +16,7 @@ always_ff @(posedge clk) begin
       if(out == 0) begin
           state = COUNTING_UP;
       end
-      if (out == 2^(N - 1)) begin
+      if (out == 2**(N - 1)) begin
           state = COUNTING_DOWN;
       end
       if (ena)begin
