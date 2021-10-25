@@ -19,6 +19,10 @@ test_adder_n : test_adder_n.sv adder_1.sv adder_n.sv
 test_shift_register : test_shift_register.sv shift_register.sv
 	${IVERILOG} $^ -o test_shift_register.bin && ${VVP} test_shift_register.bin
 
+test_debouncer : test_debouncer.sv debouncer.sv
+	${IVERILOG} $^ -o test_debouncer.bin && ${VVP} test_debouncer.bin
+
+
 waves_shift_register: test_shift_register
 	gtkwave shift_register.vcd -a wave_cfgs/shift_register.gtkw
 
