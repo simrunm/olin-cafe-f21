@@ -9,26 +9,24 @@ output logic [N-1:0] out;
 typedef enum logic {COUNTING_UP, COUNTING_DOWN} state_t;
 state_t state;
 
+// SOLUTION START
 always_ff @(posedge clk) begin
   if(rst) begin
     out <= 0;
-  end else begin
-      if(out == 0) begin
-          state = COUNTING_UP;
+    state <= COUNTING_UP;
+  end else if (ena) begin
+    case(state)
+      COUNTING_UP: begin
+        out <= out + 1;
+        if(&out[N-1:1] & ~out[0]) state <= COUNTING_DOWN;
       end
-      if (out == 2**(N - 1)) begin
-          state = COUNTING_DOWN;
+      COUNTING_DOWN: begin
+        out <= out -1;
+        if(&({~out[N-1:1],out[0]})) state <= COUNTING_UP;
       end
-      if (ena)begin
-          if(state == COUNTING_UP) begin
-              out <= out + 1;              
-          end
-          if(state == COUNTING_DOWN)begin
-              out <= out - 1;
-          end
-      end
-
+    endcase
   end
 end
+// SOLUTION END
 
 endmodule

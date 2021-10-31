@@ -1,0 +1,114 @@
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.1 (lin64) Build 3247384 Thu Jun 10 19:36:07 MDT 2021
+| Date         : Mon Oct 25 18:49:15 2021
+| Host         : simrun-Latitude-5401 running 64-bit Ubuntu 20.04.3 LTS
+| Command      : report_timing -sort_by group -max_paths 100 -path_type summary -file timing.log
+| Design       : main
+| Device       : 7a15t-cpg236
+| Speed File   : -1  PRODUCTION 1.23 2018-06-13
+-------------------------------------------------------------------------------------------------
+
+Timing Report
+
+Startpoint                     Endpoint                       Slack(ns)     
+----------------------------------------------------------------------------
+PULSE_10Hz/counter_reg[3]/C    PULSE_10Hz/counter_reg[20]/R   79.511        
+PULSE_100Hz/counter_reg[10]/C  PULSE_100Hz/counter_reg[16]/R  79.517        
+PULSE_10Hz/counter_reg[3]/C    PULSE_10Hz/counter_reg[16]/R   79.650        
+PULSE_10Hz/counter_reg[3]/C    PULSE_10Hz/counter_reg[17]/R   79.650        
+PULSE_10Hz/counter_reg[3]/C    PULSE_10Hz/counter_reg[18]/R   79.650        
+PULSE_10Hz/counter_reg[3]/C    PULSE_10Hz/counter_reg[19]/R   79.650        
+PULSE_100Hz/counter_reg[10]/C  PULSE_100Hz/counter_reg[12]/R  79.661        
+PULSE_100Hz/counter_reg[10]/C  PULSE_100Hz/counter_reg[13]/R  79.661        
+PULSE_100Hz/counter_reg[10]/C  PULSE_100Hz/counter_reg[14]/R  79.661        
+PULSE_100Hz/counter_reg[10]/C  PULSE_100Hz/counter_reg[15]/R  79.661        
+PULSE_10Hz/counter_reg[3]/C    PULSE_10Hz/counter_reg[12]/R   79.799        
+PULSE_10Hz/counter_reg[3]/C    PULSE_10Hz/counter_reg[13]/R   79.799        
+PULSE_10Hz/counter_reg[3]/C    PULSE_10Hz/counter_reg[14]/R   79.799        
+PULSE_10Hz/counter_reg[3]/C    PULSE_10Hz/counter_reg[15]/R   79.799        
+PULSE_100Hz/counter_reg[10]/C  PULSE_100Hz/counter_reg[10]/R  79.837        
+PULSE_100Hz/counter_reg[10]/C  PULSE_100Hz/counter_reg[11]/R  79.837        
+PULSE_100Hz/counter_reg[10]/C  PULSE_100Hz/counter_reg[8]/R   79.837        
+PULSE_100Hz/counter_reg[10]/C  PULSE_100Hz/counter_reg[9]/R   79.837        
+PULSE_10Hz/counter_reg[3]/C    PULSE_10Hz/counter_reg[0]/R    79.866        
+PULSE_10Hz/counter_reg[3]/C    PULSE_10Hz/counter_reg[1]/R    79.866        
+PULSE_10Hz/counter_reg[3]/C    PULSE_10Hz/counter_reg[2]/R    79.866        
+PULSE_10Hz/counter_reg[3]/C    PULSE_10Hz/counter_reg[3]/R    79.866        
+PULSE_100Hz/counter_reg[10]/C  PULSE_100Hz/counter_reg[4]/R   79.965        
+PULSE_100Hz/counter_reg[10]/C  PULSE_100Hz/counter_reg[5]/R   79.965        
+PULSE_100Hz/counter_reg[10]/C  PULSE_100Hz/counter_reg[6]/R   79.965        
+PULSE_100Hz/counter_reg[10]/C  PULSE_100Hz/counter_reg[7]/R   79.965        
+PULSE_10Hz/counter_reg[3]/C    PULSE_10Hz/counter_reg[4]/R    79.982        
+PULSE_10Hz/counter_reg[3]/C    PULSE_10Hz/counter_reg[5]/R    79.982        
+PULSE_10Hz/counter_reg[3]/C    PULSE_10Hz/counter_reg[6]/R    79.982        
+PULSE_10Hz/counter_reg[3]/C    PULSE_10Hz/counter_reg[7]/R    79.982        
+PULSE_100Hz/counter_reg[10]/C  PULSE_100Hz/counter_reg[0]/R   80.118        
+PULSE_100Hz/counter_reg[10]/C  PULSE_100Hz/counter_reg[1]/R   80.118        
+PULSE_100Hz/counter_reg[10]/C  PULSE_100Hz/counter_reg[2]/R   80.118        
+PULSE_100Hz/counter_reg[10]/C  PULSE_100Hz/counter_reg[3]/R   80.118        
+PULSE_10Hz/counter_reg[3]/C    PULSE_10Hz/counter_reg[10]/R   80.132        
+PULSE_10Hz/counter_reg[3]/C    PULSE_10Hz/counter_reg[11]/R   80.132        
+PULSE_10Hz/counter_reg[3]/C    PULSE_10Hz/counter_reg[8]/R    80.132        
+PULSE_10Hz/counter_reg[3]/C    PULSE_10Hz/counter_reg[9]/R    80.132        
+PULSE_100Hz/counter_reg[4]/C   PULSE_100Hz/out_reg/D          80.881        
+PULSE_10Hz/counter_reg[14]/C   PULSE_10Hz/out_reg/D           80.977        
+PULSE_10Hz/counter_reg[1]/C    PULSE_10Hz/counter_reg[20]/D   81.029        
+PULSE_10Hz/counter_reg[1]/C    PULSE_10Hz/counter_reg[17]/D   81.032        
+PULSE_10Hz/counter_reg[1]/C    PULSE_10Hz/counter_reg[19]/D   81.053        
+PULSE_10Hz/counter_reg[1]/C    PULSE_10Hz/counter_reg[18]/D   81.127        
+PULSE_100Hz/counter_reg[1]/C   PULSE_100Hz/counter_reg[16]/D  81.142        
+PULSE_10Hz/counter_reg[1]/C    PULSE_10Hz/counter_reg[16]/D   81.143        
+PULSE_100Hz/counter_reg[1]/C   PULSE_100Hz/counter_reg[13]/D  81.147        
+PULSE_10Hz/counter_reg[1]/C    PULSE_10Hz/counter_reg[13]/D   81.147        
+PULSE_100Hz/counter_reg[1]/C   PULSE_100Hz/counter_reg[15]/D  81.168        
+PULSE_10Hz/counter_reg[1]/C    PULSE_10Hz/counter_reg[15]/D   81.168        
+PULSE_100Hz/counter_reg[1]/C   PULSE_100Hz/counter_reg[14]/D  81.242        
+PULSE_10Hz/counter_reg[1]/C    PULSE_10Hz/counter_reg[14]/D   81.242        
+PULSE_100Hz/counter_reg[1]/C   PULSE_100Hz/counter_reg[12]/D  81.258        
+PULSE_10Hz/counter_reg[1]/C    PULSE_10Hz/counter_reg[12]/D   81.258        
+PULSE_100Hz/counter_reg[1]/C   PULSE_100Hz/counter_reg[9]/D   81.262        
+PULSE_10Hz/counter_reg[1]/C    PULSE_10Hz/counter_reg[9]/D    81.263        
+PULSE_100Hz/counter_reg[1]/C   PULSE_100Hz/counter_reg[11]/D  81.283        
+PULSE_10Hz/counter_reg[1]/C    PULSE_10Hz/counter_reg[11]/D   81.284        
+PULSE_100Hz/counter_reg[1]/C   PULSE_100Hz/counter_reg[10]/D  81.357        
+PULSE_10Hz/counter_reg[1]/C    PULSE_10Hz/counter_reg[10]/D   81.358        
+PULSE_100Hz/counter_reg[1]/C   PULSE_100Hz/counter_reg[8]/D   81.373        
+PULSE_10Hz/counter_reg[1]/C    PULSE_10Hz/counter_reg[8]/D    81.374        
+PULSE_100Hz/counter_reg[1]/C   PULSE_100Hz/counter_reg[5]/D   81.376        
+PULSE_10Hz/counter_reg[1]/C    PULSE_10Hz/counter_reg[5]/D    81.378        
+PULSE_100Hz/counter_reg[1]/C   PULSE_100Hz/counter_reg[7]/D   81.397        
+PULSE_10Hz/counter_reg[1]/C    PULSE_10Hz/counter_reg[7]/D    81.399        
+PWM_LED0/counter_reg[2]/C      PWM_LED0/counter_reg[2]/D      81.417        
+PWM_LED0/counter_reg[2]/C      PWM_LED0/counter_reg[3]/D      81.434        
+PULSE_100Hz/counter_reg[1]/C   PULSE_100Hz/counter_reg[6]/D   81.471        
+PULSE_10Hz/counter_reg[1]/C    PULSE_10Hz/counter_reg[6]/D    81.473        
+PULSE_100Hz/counter_reg[1]/C   PULSE_100Hz/counter_reg[4]/D   81.487        
+PULSE_10Hz/counter_reg[1]/C    PULSE_10Hz/counter_reg[4]/D    81.489        
+LED_FADER0/out_reg[0]/C        LED_FADER0/out_reg[0]/D        81.615        
+LED_FADER0/out_reg[0]/C        LED_FADER0/out_reg[2]/D        81.625        
+LED_FADER0/out_reg[0]/C        LED_FADER0/out_reg[1]/D        81.635        
+LED_FADER0/out_reg[0]/C        LED_FADER0/out_reg[3]/D        81.641        
+PULSE_100Hz/counter_reg[1]/C   PULSE_100Hz/counter_reg[3]/D   81.645        
+PULSE_10Hz/counter_reg[1]/C    PULSE_10Hz/counter_reg[3]/D    81.647        
+PULSE_100Hz/counter_reg[1]/C   PULSE_100Hz/counter_reg[2]/D   81.705        
+PULSE_10Hz/counter_reg[1]/C    PULSE_10Hz/counter_reg[2]/D    81.707        
+LED_FADER0/out_reg[1]/C        LED_FADER0/state_reg/D         81.789        
+LED_FADER/out_reg[0]/C         LED_FADER/state_reg/D          81.841        
+LED_FADER/out_reg[0]/C         LED_FADER/out_reg[3]/D         81.845        
+PULSE_10Hz/counter_reg[0]/C    PULSE_10Hz/counter_reg[1]/D    81.847        
+PULSE_100Hz/counter_reg[0]/C   PULSE_100Hz/counter_reg[1]/D   81.848        
+PWM_LED0/counter_reg[1]/C      PWM_LED0/counter_reg[1]/D      81.886        
+LED_FADER/out_reg[1]/C         LED_FADER/out_reg[1]/D         81.910        
+LED_FADER/out_reg[1]/C         LED_FADER/out_reg[2]/D         81.928        
+PULSE_10Hz/counter_reg[0]/C    PULSE_10Hz/counter_reg[0]/D    82.024        
+PULSE_100Hz/counter_reg[0]/C   PULSE_100Hz/counter_reg[0]/D   82.025        
+LED_FADER/out_reg[0]/C         LED_FADER/out_reg[0]/D         82.057        
+PWM_LED0/counter_reg[0]/C      PWM_LED0/counter_reg[0]/D      82.058        
+PULSE_10Hz/out_reg/C           LED_FADER0/out_reg[0]/CE       82.253        
+PULSE_10Hz/out_reg/C           LED_FADER0/out_reg[1]/CE       82.253        
+PULSE_10Hz/out_reg/C           LED_FADER0/out_reg[2]/CE       82.253        
+PULSE_10Hz/out_reg/C           LED_FADER0/out_reg[3]/CE       82.253        
+
+
+
