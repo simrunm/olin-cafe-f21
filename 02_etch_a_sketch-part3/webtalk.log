@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Webtalk v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:07 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Mon Nov  8 17:33:22 2021
+# Process ID: 70223
+# Current directory: /home/simrun/comparch/olin-cafe-f21/02_etch_a_sketch-part3
+# Command line: wbtcv -mode batch -source /home/simrun/comparch/olin-cafe-f21/02_etch_a_sketch-part3/.Xil/Vivado-70050-simrun-Latitude-5401/webtalk/labtool_webtalk.tcl -notrace
+# Log file: /home/simrun/comparch/olin-cafe-f21/02_etch_a_sketch-part3/webtalk.log
+# Journal file: /home/simrun/comparch/olin-cafe-f21/02_etch_a_sketch-part3/webtalk.jou
+#-----------------------------------------------------------
+source /home/simrun/comparch/olin-cafe-f21/02_etch_a_sketch-part3/.Xil/Vivado-70050-simrun-Latitude-5401/webtalk/labtool_webtalk.tcl -notrace
+INFO: [Common 17-186] '/home/simrun/comparch/olin-cafe-f21/02_etch_a_sketch-part3/.Xil/Vivado-70050-simrun-Latitude-5401/webtalk/usage_statistics_ext_labtool.xml' has been successfully sent to Xilinx on Mon Nov  8 17:33:24 2021. For additional details about this file, please refer to the WebTalk help file at /home/simrun/comparch/bulk/xilinx/Vivado/2021.1/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Mon Nov  8 17:33:24 2021...

@@ -1,0 +1,220 @@
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.1 (lin64) Build 3247384 Thu Jun 10 19:36:07 MDT 2021
+| Date         : Mon Nov  8 17:32:57 2021
+| Host         : simrun-Latitude-5401 running 64-bit Ubuntu 20.04.3 LTS
+| Command      : report_timing -sort_by group -max_paths 100 -path_type summary -file timing.log
+| Design       : main
+| Device       : 7a15t-cpg236
+| Speed File   : -1  PRODUCTION 1.23 2018-06-13
+-------------------------------------------------------------------------------------------------
+
+Timing Report
+
+Startpoint                     Endpoint                       Slack(ns)     
+----------------------------------------------------------------------------
+ILI9341/rom_addr_reg_rep/CLKARDCLK
+                               ILI9341/cfg_state_after_wait_reg[2]/D
+                                                              78.605        
+ILI9341/rom_addr_reg_rep/CLKARDCLK
+                               ILI9341/cfg_delay_counter_reg[13]/D
+                                                              78.698        
+ILI9341/rom_addr_reg_rep/CLKARDCLK
+                               ILI9341/cfg_state_reg[1]/D     78.860        
+ILI9341/rom_addr_reg_rep/CLKARDCLK
+                               ILI9341/cfg_state_reg[0]/D     79.014        
+ILI9341/SPI0/bit_counter_reg[2]/C
+                               ILI9341/SPI0/i_ready_reg/D     79.044        
+ILI9341/state_reg[0]/C         ILI9341/rom_addr_reg_rep/ENARDEN
+                                                              79.063        
+ILI9341/rom_addr_reg_rep/CLKARDCLK
+                               ILI9341/cfg_delay_counter_reg[8]/D
+                                                              79.076        
+ILI9341/state_reg[1]/C         ILI9341/cfg_bytes_remaining_reg[1]/CE
+                                                              79.079        
+ILI9341/state_reg[1]/C         ILI9341/cfg_bytes_remaining_reg[2]/CE
+                                                              79.079        
+ILI9341/state_reg[1]/C         ILI9341/cfg_bytes_remaining_reg[3]/CE
+                                                              79.079        
+ILI9341/rom_addr_reg_rep/CLKARDCLK
+                               ILI9341/cfg_delay_counter_reg[9]/D
+                                                              79.086        
+ILI9341/state_reg[2]/C         ILI9341/SPI0/tx_data_reg[3]/CE 79.101        
+ILI9341/state_reg[2]/C         ILI9341/SPI0/tx_data_reg[4]/CE 79.101        
+ILI9341/state_reg[2]/C         ILI9341/SPI0/tx_data_reg[5]/CE 79.101        
+ILI9341/state_reg[1]/C         ILI9341/cfg_bytes_remaining_reg[4]/CE
+                                                              79.168        
+ILI9341/rom_addr_reg[3]/C      ILI9341/rom_addr_reg_rep/ADDRARDADDR[10]
+                                                              79.174        
+ILI9341/state_reg[1]/C         ILI9341/cfg_bytes_remaining_reg[5]/CE
+                                                              79.204        
+ILI9341/state_reg[1]/C         ILI9341/cfg_bytes_remaining_reg[6]/CE
+                                                              79.204        
+ILI9341/state_reg[1]/C         ILI9341/cfg_bytes_remaining_reg[7]/CE
+                                                              79.204        
+ILI9341/rom_addr_reg_rep/CLKARDCLK
+                               ILI9341/cfg_delay_counter_reg[19]/D
+                                                              79.205        
+ILI9341/rom_addr_reg_rep/CLKARDCLK
+                               ILI9341/cfg_delay_counter_reg[20]/D
+                                                              79.212        
+ILI9341/rom_addr_reg_rep/CLKARDCLK
+                               ILI9341/cfg_state_after_wait_reg[1]/D
+                                                              79.233        
+ILI9341/rom_addr_reg_rep/CLKARDCLK
+                               ILI9341/cfg_state_after_wait_reg[0]/D
+                                                              79.235        
+ILI9341/rom_addr_reg_rep/CLKARDCLK
+                               ILI9341/cfg_delay_counter_reg[16]/D
+                                                              79.240        
+ILI9341/rom_addr_reg_rep/CLKARDCLK
+                               ILI9341/cfg_delay_counter_reg[6]/D
+                                                              79.286        
+ILI9341/rom_addr_reg[3]/C      ILI9341/rom_addr_reg_rep/ADDRARDADDR[9]
+                                                              79.288        
+ILI9341/cfg_delay_counter_reg[6]/C
+                               ILI9341/cfg_state_reg[2]/D     79.302        
+ILI9341/SPI0/bit_counter_reg[2]/C
+                               ILI9341/SPI0/bit_counter_reg[3]/CE
+                                                              79.326        
+ILI9341/SPI0/bit_counter_reg[2]/C
+                               ILI9341/SPI0/bit_counter_reg[4]/CE
+                                                              79.326        
+ILI9341/pixel_x_reg[0]/C       ILI9341/pixel_y_reg[4]/CE      79.335        
+ILI9341/pixel_x_reg[0]/C       ILI9341/pixel_y_reg[5]/CE      79.335        
+ILI9341/pixel_x_reg[0]/C       ILI9341/pixel_y_reg[6]/CE      79.335        
+ILI9341/pixel_x_reg[0]/C       ILI9341/pixel_y_reg[7]/CE      79.335        
+ILI9341/pixel_x_reg[0]/C       ILI9341/pixel_y_reg[8]/CE      79.335        
+ILI9341/pixel_x_reg[0]/C       ILI9341/pixel_y_reg[9]/CE      79.335        
+ILI9341/state_reg[1]/C         ILI9341/cfg_delay_counter_reg[11]/CE
+                                                              79.359        
+ILI9341/state_reg[1]/C         ILI9341/cfg_delay_counter_reg[15]/CE
+                                                              79.359        
+ILI9341/state_reg[1]/C         ILI9341/cfg_delay_counter_reg[18]/CE
+                                                              79.359        
+ILI9341/state_reg[1]/C         ILI9341/cfg_delay_counter_reg[21]/CE
+                                                              79.359        
+ILI9341/SPI0/bit_counter_reg[2]/C
+                               ILI9341/SPI0/bit_counter_reg[0]/CE
+                                                              79.363        
+ILI9341/rom_addr_reg_rep/CLKARDCLK
+                               ILI9341/cfg_delay_counter_reg[14]/D
+                                                              79.377        
+ILI9341/rom_addr_reg_rep/CLKARDCLK
+                               ILI9341/cfg_delay_counter_reg[17]/D
+                                                              79.388        
+ILI9341/rom_addr_reg_rep/CLKARDCLK
+                               ILI9341/cfg_bytes_remaining_reg[4]/D
+                                                              79.398        
+ILI9341/state_reg[2]/C         ILI9341/SPI0/tx_data_reg[0]/CE 79.399        
+ILI9341/state_reg[2]/C         ILI9341/SPI0/tx_data_reg[1]/CE 79.399        
+ILI9341/state_reg[2]/C         ILI9341/SPI0/tx_data_reg[2]/CE 79.399        
+ILI9341/state_reg[1]/C         ILI9341/cfg_delay_counter_reg[14]/CE
+                                                              79.406        
+ILI9341/state_reg[1]/C         ILI9341/cfg_delay_counter_reg[16]/CE
+                                                              79.406        
+ILI9341/state_reg[1]/C         ILI9341/cfg_delay_counter_reg[17]/CE
+                                                              79.406        
+ILI9341/state_reg[1]/C         ILI9341/cfg_delay_counter_reg[19]/CE
+                                                              79.406        
+ILI9341/state_reg[1]/C         ILI9341/cfg_delay_counter_reg[20]/CE
+                                                              79.406        
+ILI9341/state_reg[1]/C         ILI9341/cfg_delay_counter_reg[6]/CE
+                                                              79.406        
+ILI9341/state_reg[1]/C         ILI9341/cfg_delay_counter_reg[0]/CE
+                                                              79.410        
+ILI9341/state_reg[2]/C         ILI9341/SPI0/tx_data_reg[6]/CE 79.435        
+ILI9341/state_reg[2]/C         ILI9341/SPI0/tx_data_reg[7]/CE 79.435        
+ILI9341/state_reg[1]/C         ILI9341/cfg_delay_counter_reg[1]/CE
+                                                              79.452        
+ILI9341/state_reg[1]/C         ILI9341/cfg_delay_counter_reg[2]/CE
+                                                              79.452        
+ILI9341/state_reg[1]/C         ILI9341/cfg_delay_counter_reg[3]/CE
+                                                              79.452        
+ILI9341/state_reg[1]/C         ILI9341/cfg_delay_counter_reg[4]/CE
+                                                              79.452        
+ILI9341/state_reg[1]/C         ILI9341/cfg_delay_counter_reg[5]/CE
+                                                              79.452        
+ILI9341/state_reg[1]/C         ILI9341/cfg_delay_counter_reg[7]/CE
+                                                              79.452        
+ILI9341/SPI0/bit_counter_reg[2]/C
+                               ILI9341/SPI0/bit_counter_reg[1]/CE
+                                                              79.462        
+ILI9341/SPI0/bit_counter_reg[2]/C
+                               ILI9341/SPI0/bit_counter_reg[2]/CE
+                                                              79.462        
+ILI9341/rom_addr_reg_rep/CLKARDCLK
+                               ILI9341/cfg_delay_counter_reg[10]/D
+                                                              79.462        
+ILI9341/cfg_delay_counter_reg[6]/C
+                               ILI9341/cfg_delay_counter_reg[12]/D
+                                                              79.484        
+ILI9341/pixel_x_reg[0]/C       ILI9341/pixel_y_reg[0]/CE      79.485        
+ILI9341/pixel_x_reg[0]/C       ILI9341/pixel_y_reg[1]/CE      79.485        
+ILI9341/pixel_x_reg[0]/C       ILI9341/pixel_y_reg[2]/CE      79.485        
+ILI9341/pixel_x_reg[0]/C       ILI9341/pixel_y_reg[3]/CE      79.485        
+ILI9341/state_reg[2]/C         ILI9341/data_commandb_reg/CE   79.490        
+ILI9341/cfg_delay_counter_reg[4]/C
+                               ILI9341/cfg_delay_counter_reg[21]/D
+                                                              79.494        
+ILI9341/state_reg[1]/C         ILI9341/cfg_bytes_remaining_reg[0]/CE
+                                                              79.524        
+ILI9341/state_reg[1]/C         ILI9341/cfg_delay_counter_reg[13]/CE
+                                                              79.559        
+ILI9341/state_reg[2]/C         ILI9341/SPI0/tx_data_reg[10]/CE
+                                                              79.576        
+ILI9341/state_reg[2]/C         ILI9341/SPI0/tx_data_reg[11]/CE
+                                                              79.576        
+ILI9341/state_reg[2]/C         ILI9341/SPI0/tx_data_reg[8]/CE 79.576        
+ILI9341/state_reg[2]/C         ILI9341/SPI0/tx_data_reg[9]/CE 79.576        
+ILI9341/state_reg[1]/C         ILI9341/cfg_delay_counter_reg[10]/CE
+                                                              79.591        
+ILI9341/state_reg[1]/C         ILI9341/cfg_delay_counter_reg[12]/CE
+                                                              79.591        
+ILI9341/state_reg[1]/C         ILI9341/cfg_delay_counter_reg[8]/CE
+                                                              79.591        
+ILI9341/state_reg[1]/C         ILI9341/cfg_delay_counter_reg[9]/CE
+                                                              79.591        
+ILI9341/cfg_state_reg[0]/C     ILI9341/state_reg[0]/D         79.601        
+ILI9341/state_reg[2]/C         ILI9341/SPI0/tx_data_reg[14]/CE
+                                                              79.612        
+ILI9341/cfg_state_reg[0]/C     ILI9341/state_reg[1]/D         79.624        
+ILI9341/cfg_delay_counter_reg[4]/C
+                               ILI9341/cfg_delay_counter_reg[18]/D
+                                                              79.631        
+ILI9341/pixel_x_reg[0]/C       ILI9341/pixel_x_reg[1]/D       79.672        
+ILI9341/pixel_x_reg[0]/C       ILI9341/pixel_x_reg[3]/D       79.676        
+ILI9341/pixel_x_reg[0]/C       ILI9341/pixel_x_reg[0]/D       79.683        
+ILI9341/pixel_x_reg[0]/C       ILI9341/pixel_x_reg[2]/D       79.692        
+ILI9341/pixel_x_reg[0]/C       ILI9341/pixel_x_reg[4]/D       79.703        
+ILI9341/cfg_delay_counter_reg[6]/C
+                               ILI9341/cfg_delay_counter_reg[1]/D
+                                                              79.708        
+ILI9341/cfg_delay_counter_reg[6]/C
+                               ILI9341/cfg_delay_counter_reg[5]/D
+                                                              79.713        
+ILI9341/cfg_delay_counter_reg[6]/C
+                               ILI9341/cfg_delay_counter_reg[3]/D
+                                                              79.715        
+ILI9341/cfg_delay_counter_reg[6]/C
+                               ILI9341/cfg_delay_counter_reg[2]/D
+                                                              79.723        
+ILI9341/cfg_delay_counter_reg[6]/C
+                               ILI9341/cfg_delay_counter_reg[7]/D
+                                                              79.723        
+ILI9341/cfg_delay_counter_reg[6]/C
+                               ILI9341/cfg_delay_counter_reg[4]/D
+                                                              79.726        
+ILI9341/rom_addr_reg_rep/CLKARDCLK
+                               ILI9341/cfg_bytes_remaining_reg[1]/D
+                                                              79.728        
+ILI9341/rom_addr_reg_rep/CLKARDCLK
+                               ILI9341/cfg_bytes_remaining_reg[3]/D
+                                                              79.738        
+ILI9341/pixel_x_reg[2]/C       ILI9341/SPI0/tx_data_reg[1]/D  79.802        
+ILI9341/rom_addr_reg_rep/CLKARDCLK
+                               ILI9341/cfg_bytes_remaining_reg[0]/D
+                                                              79.818        
+
+
+
